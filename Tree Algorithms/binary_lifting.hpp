@@ -1,3 +1,5 @@
+#include "../main_headers.hpp"
+
 struct BinaryLifting {
     int n;
     int maxLog;
