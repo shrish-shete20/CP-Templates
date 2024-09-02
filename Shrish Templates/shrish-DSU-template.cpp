@@ -9,7 +9,7 @@ struct DSU
         // max_size.first=n;
         leader.resize(n+1);
         sizes.resize(n+1);
-        for(int i = 0; i < n; i++)
+        for(int i = 0; i <= n; i++)
         {
             leader[i]=i;
             sizes[i]=1;
